@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="account">
+        <form name="form" action="#" autocomplete="off" onsubmit="return validation() ">
+            <h1>Create Account</h1>
+            <input class="a" id="user" type="text" name="User Name" placeholder="User Name"></br>
+            <span id="u" class="t"></span>
+            <br><input class="a" id="email" type="email" name="Email" placeholder="Email Address"></br>
+            <span id="e" class="t"></span>
+            <br><input class="a" id="pass" type="password" name="password" placeholder="password"></br>
+            <span id="p" class="t"></span>
+            <br><input class="a" id="conpass" type="password" name="Conform password" placeholder="conform password"></br>
+            <span id="c" class="t"></span>
+            <p>
+            <input class="a" id="date" type="date" name="Date of birth" placeholder="Date of birth">
+            <span id="d" class="t"></span></p>
+            <div id=a>
+                <label >Gender:  
+                <input id="gender" type="radio" name="gender choice" value="choice 1">Male
+                <input id="gender" type="radio" name="gender choice" value="choice 2">Female
+                <input id="gender" type="radio" name="gender choice" value="choice 3">Others
+                </label></br>
+                <span id="g" class="t"></span>
+            </div>
+            <p><button>Continue</button></p>
+            <p class="b">Already have an account?<a href="https://www.facebook.com/">Sign in</a></p>
+        </form>
+    </div>  
+</body>
+<script type="text/javascript" src="script.js">
+</script>
+</html>   
