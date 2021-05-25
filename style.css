@@ -1,5 +1,5 @@
 body{
-    background-image: 012.jpg;
+    background-image: url("012.jpg");
 }
 .account{
     border-radius: 5px;
